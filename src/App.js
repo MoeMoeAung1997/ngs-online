@@ -6,17 +6,19 @@ import Content from "./core/components/content/content";
 import PageFooter from "./core/components/page-footer/page-footer";
 import Copyright from "./core/components/copy-right/copy-right";
 import ScrollButton from "./core/components/scroll-button/scroll-button";
+import TeamSingle from "./app/pages/team-single/team-single";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Header />
-      <Content />
-      <FooterCarousel />
-      <PageFooter />
-      <Copyright />
-      <ScrollButton />
+      <Nav/>
+      <Header/>
+      <FooterCarousel/>
+      <Content/>
+      <PageFooter/>
+      <Copyright/>
+      <ScrollButton/>
+      <TeamSingle/>
     </div>
   );
 }
